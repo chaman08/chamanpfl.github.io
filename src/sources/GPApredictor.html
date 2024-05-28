@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Predictor By Chaman</title>
+    <style>
+        .container{
+            border: 1px solid grey;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 50vh;
+            margin: 25vw;
+        }
+        button{
+            margin: 8px;
+            padding: 5px;
+            color: white;
+            background-color: blueviolet;
+            border-radius: 5px;
+        }
+        input{
+            color: grey;
+            padding: 8px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Predict GPA</h1>
+        <input type="text" name="satScore" id="sat" value="Enter SAT Score">
+        <button>Predict</button>
+        <h3>Your GPA will be:</h3>
+        <div class="res">
+            <h2></h2>
+        </div>
+    </div>
+</body>
+</html>

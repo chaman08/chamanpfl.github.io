@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+ul.nav{
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+img.logo{
+    display: flex;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.navlink{
+    display: flex;
+}
+
+li.navlink{
+    padding: 10px;
+    color: aliceblue;
+}
+
+li.navlink:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 40px;
+    transition: 400ms;
+    padding: 10px;
+}
+
+a.navlink{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a.navlink:hover{
+    color: black;
+}
+
+a.navlink:visited{
+    color: aliceblue;
+}
+
+a.navlink:visited:hover{
+    color: black;
+}
+
+@media only screen and (max-width:480px){
+    ul{
+        padding: 0px 15px 0px 15px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+    }
+    .navlink{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        padding: 10px;
+    }
+    img.logo{
+        display: flex;
+        border-radius: 50%;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .college{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10vw;
+        background-color: rgb(223, 190, 255);
+        color: black;
+    }
+    .school-12{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25vw;
+        align-items: center;
+        padding: 10vw;
+        background-color:blueviolet;
+        color: aliceblue;
+    }
+    .school-10{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 25vw;
+        align-items: center;
+        padding: 10vw;
+        background-color: rgb(223, 190, 255);
+        color: black;
+    }
+}
+
+.college{
+    display: flex;
+    gap: 25vw;
+    align-items: center;
+    padding: 10vw;
+    background-color: rgb(223, 190, 255);
+    color: black;
+}
+
+.school-12{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 25vw;
+    align-items: center;
+    padding: 10vw;
+    background-color:blueviolet;
+    color: aliceblue;
+}
+
+.school-10{
+    display: flex;
+    gap: 25vw;
+    align-items: center;
+    padding: 10vw;
+    background-color: rgb(223, 190, 255);
+    color: black;
+}
+
+.content{
+    width: 25vw;
+}
+
+.pic{
+    width: 23vw;
+}
+
+a.certi{
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+a.certi-A{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(223, 190, 255);
+    padding: 8px;
+    border-radius: 8px;
+}

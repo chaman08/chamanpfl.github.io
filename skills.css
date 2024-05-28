@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+ul.nav{
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+img.logo{
+    display: flex;
+    border-radius: 50%;
+    height: 40px;
+}
+
+.navlink{
+    display: flex;
+}
+
+li.navlink{
+    padding: 10px;
+    color: aliceblue;
+}
+
+li.navlink:hover{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 40px;
+    transition: 400ms;
+    padding: 10px;
+}
+
+a.navlink{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a.navlink:hover{
+    color: black;
+}
+
+a.navlink:visited{
+    color: aliceblue;
+}
+
+a.navlink:visited:hover{
+    color: black;
+}
+
+@media only screen and (max-width:480px){
+    ul{
+        padding: 0px 15px 0px 15px;
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: center;
+    }
+    .navlink{
+        display: flex;
+        flex-direction: column;
+    }
+    li{
+        padding: 10px;
+    }
+    img.logo{
+        display: flex;
+        border-radius: 50%;
+        height: 100px;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: repeat( 1, 1fr);
+        padding: 5vw;
+        gap: 15px;
+        background-color: rgb(223, 190, 255);
+    }
+}
+
+@media only screen and (min-width:480px){
+
+  .content{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 5vw;
+      gap: 15px;
+      background-color: rgb(223, 190, 255);
+  }
+
+}
+
+.card{
+    border: 1px solid black;
+    background-color: rgb(219, 238, 255);
+    border-radius: 8px;
+    width: 1fr;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.card-logo{
+    width: 150px;
+    height: 150px;
+}
+
+a.certi{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+a.certi:visited{
+    background-color: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
